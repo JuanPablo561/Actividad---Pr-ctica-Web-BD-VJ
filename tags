@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de práctica con diferentes etiquetas HTML">
+    <title>Etiquetas HTML - Mi Sitio Web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--ink-navy);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Sitio Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tags.html">Etiquetas HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form.html">Formulario</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header text-center">
+        <div class="container">
+            <h1>Práctica de Etiquetas HTML</h1>
+            <p id="intro-text" class="mb-0">En esta página se muestran diferentes etiquetas de HTML.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="content-section">
+                <h2>Texto y párrafos</h2>
+                <p>
+                    Este es un párrafo normal de ejemplo.<br />
+                    Esta segunda línea aparece después de un salto de línea con <strong>&lt;br /&gt;</strong>.
+                </p>
+                <p class="highlight">
+                    Podemos resaltar texto importante usando <strong>la etiqueta strong</strong>,
+                    y este párrafo en particular usa la clase <code>.highlight</code>.
+                </p>
+            </section>
+
+            <section class="content-section alt-bg">
+                <div class="container">
+                    <h2>Superíndices y subíndices</h2>
+                    <p>Fórmula del agua: H<sub>2</sub>O</p>
+                    <p>Ejemplo de potencia: X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup></p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>Listas</h2>
+                <p>Lista no ordenada:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Planear el sitio</li>
+                    <li>Crear el contenido</li>
+                    <li>Agregar estilos con CSS y Bootstrap</li>
+                </ol>
+            </section>
+
+            <section class="content-section alt-bg">
+                <div class="container">
+                    <h2>Enlaces e imágenes</h2>
+                    <p>
+                        Este es un enlace externo a
+                        <a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a>,
+                        un excelente recurso para aprender HTML.
+                    </p>
+                    <img src="https://placehold.co/300x300?text=Imagen" alt="Imagen de ejemplo">
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>Otras etiquetas útiles</h2>
+                <p>
+                    <em>Este texto está en cursiva (em)</em><br />
+                    <small>Este texto es más pequeño (small)</small><br />
+                    <code>console.log("Este es un ejemplo de código");</code>
+                </p>
+                <blockquote class="blockquote">
+                    "El HTML es la estructura sobre la que se construye la web."
+                </blockquote>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="mb-0">&copy; 2026 Mi Sitio Web de Práctica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
