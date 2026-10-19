@@ -1,6 +1,3 @@
 Link al repositorio de GitHub:
-https://github.com/TU-USUARIO/NOMBRE-DEL-REPOSITORIO
+https://github.com/JuanPablo561/Actividad---Pr-ctica-Web-BD-VJ
 
-(Reemplaza "TU-USUARIO" y "NOMBRE-DEL-REPOSITORIO" por tu usuario real de GitHub
-y el nombre que le des al repositorio una vez lo hayas creado y subido, luego
-guarda este archivo dentro del propio repositorio).
