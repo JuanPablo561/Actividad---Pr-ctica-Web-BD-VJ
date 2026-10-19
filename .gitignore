@@ -3,3 +3,12 @@ node_modules/
 *.log
 npm-debug.log*
 .DS_Store
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+.vs/
+*.csproj
+*.sln
